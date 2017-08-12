@@ -37,7 +37,7 @@ int main(int argc, char**argv) {
     std::cout << "test..." << std::endl; 
     // Prints arguments...
     if (argc > 1) {
-        //std::cout << std::endl << "Arguments:" << std::endl;
+
         for (int i = 1; i < argc-1; i++) {
             std::cout << i << ": " << argv[i] << std::endl;
         }
