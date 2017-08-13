@@ -34,16 +34,17 @@ int main(int argc, char**argv) {
     // Prints welcome message...
     std::cout << "Welcome test5..." << std::endl;
        
-    std::cout << "test..." << std::endl; 
+
     // Prints arguments...
     if (argc > 1) {
 
         for (int i = 1; i < argc-1; i++) {
             std::cout << i << ": " << argv[i] << std::endl;
+            std::cout << i << ": " << argv[i] << std::endl;
         }
     }
 
 std::cout << "test8..." << std::endl; 
-std::cout << "test7..." << std::endl; 
+std::cout << "test6..." << std::endl; 
     return 0;
 }
