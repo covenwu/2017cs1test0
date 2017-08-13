@@ -40,11 +40,9 @@ int main(int argc, char**argv) {
 
         for (int i = 1; i < argc-1; i++) {
             std::cout << i << ": " << argv[i] << std::endl;
-            std::cout << i << ": " << argv[i] << std::endl;
+
         }
     }
 
-std::cout << "test8..." << std::endl; 
-std::cout << "test6..." << std::endl; 
     return 0;
 }
