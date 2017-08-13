@@ -48,6 +48,8 @@ void Disk::ComputeSupportMetric() {
     if (GetTypeID() == RAID) {
         metric += 500;
         ///testtest
+        
+        //testest
     }
         
     SetSupportMetric(metric);
