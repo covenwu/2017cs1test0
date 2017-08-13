@@ -42,8 +42,8 @@ int main(int argc, char**argv) {
             std::cout << i << ": " << argv[i] << std::endl;
         }
     }
-    std::cout << "test1..." << std::endl; 
-std::cout << "test6..." << std::endl; 
 
+std::cout << "test8..." << std::endl; 
+std::cout << "test7..." << std::endl; 
     return 0;
 }
